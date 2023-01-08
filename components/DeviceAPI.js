@@ -4,9 +4,9 @@ import { Accelerometer } from 'expo-sensors';
 
 export default function App() {
   const [{ x, y, z }, setData] = useState({
-    x: -0.164345454,
-    y: -0.102342432,
-    z: 9.447528957,
+    x: 0,
+    y: 0,
+    z: 0,
   });
   const [subscription, setSubscription] = useState(null);
 
